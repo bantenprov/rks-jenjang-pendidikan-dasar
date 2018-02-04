@@ -26,7 +26,7 @@
             "src/helpers/helpers.php"
         ],
         "psr-4": {
-            "Bantenprov\\RKSJePenDas\\": "src"
+            "Bantenprov\\RKSJenPenDas\\": "src"
         }
     },
     "minimum-stability": "dev"

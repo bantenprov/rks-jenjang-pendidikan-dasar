@@ -1,8 +1,8 @@
-# rks-jenjang-pendidikan-dasar
+# rks-jen-pen-das
 
-[![Join the chat at https://gitter.im/rks-jenjang-pendidikan-dasar/Lobby](https://badges.gitter.im/rks-jenjang-pendidikan-dasar/Lobby.svg)](https://gitter.im/rks-jenjang-pendidikan-dasar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/build-status/master)
+[![Join the chat at https://gitter.im/rks-jen-pen-das/Lobby](https://badges.gitter.im/rks-jen-pen-das/Lobby.svg)](https://gitter.im/rks-jen-pen-das/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/build-status/master)
 
 Rasio Ketersediaan Sekolah (RKS) Jenjang Pendidikan Dasar
 
@@ -10,18 +10,18 @@ Rasio Ketersediaan Sekolah (RKS) Jenjang Pendidikan Dasar
 
 - Development snapshot
 ```bash
-$ composer require bantenprov/rks-jenjang-pendidikan-dasar:dev-master
+$ composer require bantenprov/rks-jen-pen-das:dev-master
 ```
 - Latest release:
 
 ```bash
-$ composer require bantenprov/rks-jenjang-pendidikan-dasar:v0.1.0
+$ composer require bantenprov/rks-jen-pen-das:v0.1.0
 ```
 
 ## download via github
 ~~~
 bash
-$ git clone https://github.com/bantenprov/rks-jenjang-pendidikan-dasar.git
+$ git clone https://github.com/bantenprov/rks-jen-pen-das.git
 ~~~
 
 
@@ -40,15 +40,15 @@ $ git clone https://github.com/bantenprov/rks-jenjang-pendidikan-dasar.git
     Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
     Illuminate\Cookie\CookieServiceProvider::class,
     //....
-    Bantenprov\RKSJePenDas\RKSJePenDasServiceProvider::class,
+    Bantenprov\RKSJenPenDas\RKSJenPenDasServiceProvider::class,
 
 ```
 
 #### Untuk publish component vue :
 
 ```bash
-$ php artisan vendor:publish --tag=rks-jenjang-pendidikan-dasar-assets
-$ php artisan vendor:publish --tag=rks-jenjang-pendidikan-dasar-public
+$ php artisan vendor:publish --tag=rks-jen-pen-das-assets
+$ php artisan vendor:publish --tag=rks-jen-pen-das-public
 ```
 #### Tambahkan route di dalam route : `resources/assets/js/routes.js` :
 
@@ -69,9 +69,9 @@ children: [
   },
   //== ...
   {
-    path: '/dashboard/rks-jenjang-pendidikan-dasar',
+    path: '/dashboard/rks-jen-pen-das',
     components: {
-      main: resolve => require(['./components/views/bantenprov/rks-jenjang-pendidikan-dasar/DashboardRKSJePenDas.vue'], resolve),
+      main: resolve => require(['./components/views/bantenprov/rks-jen-pen-das/DashboardRKSJenPenDas.vue'], resolve),
       navbar: resolve => require(['./components/Navbar.vue'], resolve),
       sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
     },
@@ -89,9 +89,9 @@ component: resolve => require(['./AdminLayout.vue'], resolve),
 children: [
 //== ...
     {
-      path: '/admin/dashboard/rks-jenjang-pendidikan-dasar',
+      path: '/admin/dashboard/rks-jen-pen-das',
       components: {
-        main: resolve => require(['./components/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasAdmin.show.vue'], resolve),
+        main: resolve => require(['./components/bantenprov/rks-jen-pen-das/RKSJenPenDasAdmin.show.vue'], resolve),
         navbar: resolve => require(['./components/Navbar.vue'], resolve),
         sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
       },
@@ -125,7 +125,7 @@ children: [
         //== ...
         {
           name: 'RKS Jenjang Pendidikan Dasar',
-          link: '/dashboard/rks-jenjang-pendidikan-dasar',
+          link: '/dashboard/rks-jen-pen-das',
           icon: 'fa fa-angle-double-right'
         }
   ]
@@ -137,38 +137,38 @@ children: [
 
 ```javascript
 
-import RKSJePenDas from './components/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDas.chart.vue';
-Vue.component('echarts-rks-jenjang-pendidikan-dasar', RKSJePenDas);
+import RKSJenPenDas from './components/bantenprov/rks-jen-pen-das/RKSJenPenDas.chart.vue';
+Vue.component('echarts-rks-jen-pen-das', RKSJenPenDas);
 
-import RKSJePenDasKota from './components/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasKota.chart.vue';
-Vue.component('echarts-rks-jenjang-pendidikan-dasar-kota', RKSJePenDasKota);
+import RKSJenPenDasKota from './components/bantenprov/rks-jen-pen-das/RKSJenPenDasKota.chart.vue';
+Vue.component('echarts-rks-jen-pen-das-kota', RKSJenPenDasKota);
 
-import RKSJePenDasTahun from './components/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasTahun.chart.vue';
-Vue.component('echarts-rks-jenjang-pendidikan-dasar-tahun', RKSJePenDasTahun);
+import RKSJenPenDasTahun from './components/bantenprov/rks-jen-pen-das/RKSJenPenDasTahun.chart.vue';
+Vue.component('echarts-rks-jen-pen-das-tahun', RKSJenPenDasTahun);
 
-import RKSJePenDasAdminShow from './components/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasAdmin.show.vue';
-Vue.component('admin-view-rks-jenjang-pendidikan-dasar-tahun', RKSJePenDasAdminShow);
+import RKSJenPenDasAdminShow from './components/bantenprov/rks-jen-pen-das/RKSJenPenDasAdmin.show.vue';
+Vue.component('admin-view-rks-jen-pen-das-tahun', RKSJenPenDasAdminShow);
 
 //== Echarts Angka Partisipasi Kasar
 
-import RKSJePenDasBar01 from './components/views/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasBar01.vue';
-Vue.component('rks-jenjang-pendidikan-dasar-bar-01', RKSJePenDasBar01);
+import RKSJenPenDasBar01 from './components/views/bantenprov/rks-jen-pen-das/RKSJenPenDasBar01.vue';
+Vue.component('rks-jen-pen-das-bar-01', RKSJenPenDasBar01);
 
-import RKSJePenDasBar02 from './components/views/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasBar02.vue';
-Vue.component('rks-jenjang-pendidikan-dasar-bar-02', RKSJePenDasBar02);
+import RKSJenPenDasBar02 from './components/views/bantenprov/rks-jen-pen-das/RKSJenPenDasBar02.vue';
+Vue.component('rks-jen-pen-das-bar-02', RKSJenPenDasBar02);
 
 //== mini bar charts
-import RKSJePenDasBar03 from './components/views/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasBar03.vue';
-Vue.component('rks-jenjang-pendidikan-dasar-bar-03', RKSJePenDasBar03);
+import RKSJenPenDasBar03 from './components/views/bantenprov/rks-jen-pen-das/RKSJenPenDasBar03.vue';
+Vue.component('rks-jen-pen-das-bar-03', RKSJenPenDasBar03);
 
-import RKSJePenDasPie01 from './components/views/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasPie01.vue';
-Vue.component('rks-jenjang-pendidikan-dasar-pie-01', RKSJePenDasPie01);
+import RKSJenPenDasPie01 from './components/views/bantenprov/rks-jen-pen-das/RKSJenPenDasPie01.vue';
+Vue.component('rks-jen-pen-das-pie-01', RKSJenPenDasPie01);
 
-import RKSJePenDasPie02 from './components/views/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasPie02.vue';
-Vue.component('rks-jenjang-pendidikan-dasar-pie-02', RKSJePenDasPie02);
+import RKSJenPenDasPie02 from './components/views/bantenprov/rks-jen-pen-das/RKSJenPenDasPie02.vue';
+Vue.component('rks-jen-pen-das-pie-02', RKSJenPenDasPie02);
 
 //== mini pie charts
-import RKSJePenDasPie03 from './components/views/bantenprov/rks-jenjang-pendidikan-dasar/RKSJePenDasPie03.vue';
-Vue.component('rks-jenjang-pendidikan-dasar-pie-03', RKSJePenDasPie03);
+import RKSJenPenDasPie03 from './components/views/bantenprov/rks-jen-pen-das/RKSJenPenDasPie03.vue';
+Vue.component('rks-jen-pen-das-pie-03', RKSJenPenDasPie03);
 ```
 
