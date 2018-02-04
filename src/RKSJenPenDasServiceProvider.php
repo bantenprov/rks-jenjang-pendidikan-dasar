@@ -1,17 +1,17 @@
 <?php
 
-namespace Bantenprov\RKSJePenDas;
+namespace Bantenprov\RKSJenPenDas;
 
 use Illuminate\Support\ServiceProvider;
-use Bantenprov\RKSJePenDas\Console\Commands\RKSJePenDasCommand;
+use Bantenprov\RKSJenPenDas\Console\Commands\RKSJenPenDasCommand;
 
 /**
- * The RKSJePenDasServiceProvider class
+ * The RKSJenPenDasServiceProvider class
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJePenDasServiceProvider extends ServiceProvider
+class RKSJenPenDasServiceProvider extends ServiceProvider
 {
 
     /**
@@ -46,11 +46,11 @@ class RKSJePenDasServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('rks-jen-pen-das', function ($app) {
-            return new RKSJePenDas;
+            return new RKSJenPenDas;
         });
 
         $this->app->singleton('command.rks-jen-pen-das', function ($app) {
-            return new RKSJePenDasCommand;
+            return new RKSJenPenDasCommand;
         });
 
         $this->commands('command.rks-jen-pen-das');

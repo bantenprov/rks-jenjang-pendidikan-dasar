@@ -1,11 +1,11 @@
 <?php
 
-namespace Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas;
+namespace Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class RKSJePenDas extends Model
+class RKSJenPenDas extends Model
 {
 
     protected $table = 'rks_jen_pen_dass';
@@ -18,12 +18,12 @@ class RKSJePenDas extends Model
 
     public function getProvince()
     {
-        return $this->hasOne('Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas\Province','id','province_id');
+        return $this->hasOne('Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Province','id','province_id');
     }
 
     public function getRegency()
     {
-        return $this->hasOne('Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas\Regency','id','regency_id');
+        return $this->hasOne('Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Regency','id','regency_id');
     }
 
 }

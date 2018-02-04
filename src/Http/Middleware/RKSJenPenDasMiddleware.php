@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\RKSJePenDas\Http\Middleware;
+<?php namespace Bantenprov\RKSJenPenDas\Http\Middleware;
 
 use Closure;
 
 /**
- * The RKSJePenDasMiddleware class.
+ * The RKSJenPenDasMiddleware class.
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJePenDasMiddleware
+class RKSJenPenDasMiddleware
 {
 
     /**

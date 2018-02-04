@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\RKSJePenDas\Facades;
+<?php namespace Bantenprov\RKSJenPenDas\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * The RKSJePenDas facade.
+ * The RKSJenPenDas facade.
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJePenDas extends Facade
+class RKSJenPenDas extends Facade
 {
     /**
      * Get the registered name of the component.

@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateRKSJePenDassTable extends Migration {
+class CreateRKSJenPenDassTable extends Migration {
 
 	public function up()
 	{

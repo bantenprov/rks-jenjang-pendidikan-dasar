@@ -1,6 +1,6 @@
 <?php
 
-namespace Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas;
+namespace Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -18,7 +18,7 @@ class Regency extends Model
 
     public function getProvince()
     {
-        return $this->hasOne('Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas\Province','id','province_id');
+        return $this->hasOne('Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Province','id','province_id');
     }
 
 }

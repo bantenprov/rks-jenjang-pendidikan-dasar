@@ -1,16 +1,16 @@
 <?php
-namespace Bantenprov\RKSJePenDas;
+namespace Bantenprov\RKSJenPenDas;
 
 /**
- * The RKSJePenDas class.
+ * The RKSJenPenDas class.
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJePenDas
+class RKSJenPenDas
 {
     public function welcome()
     {
-        return 'Welcome to Bantenprov\RKSJePenDas package';
+        return 'Welcome to Bantenprov\RKSJenPenDas package';
     }
 }

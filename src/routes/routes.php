@@ -3,12 +3,12 @@
 Route::group(['prefix' => 'rks-jen-pen-das', 'middleware' => ['web']], function() {
 
     $controllers = (object) [
-        'index'     => 'Bantenprov\RKSJePenDas\Http\Controllers\RKSJePenDasController@index',
-        'create'     => 'Bantenprov\RKSJePenDas\Http\Controllers\RKSJePenDasController@create',
-        'store'     => 'Bantenprov\RKSJePenDas\Http\Controllers\RKSJePenDasController@store',
-        'show'      => 'Bantenprov\RKSJePenDas\Http\Controllers\RKSJePenDasController@show',
-        'update'    => 'Bantenprov\RKSJePenDas\Http\Controllers\RKSJePenDasController@update',
-        'destroy'   => 'Bantenprov\RKSJePenDas\Http\Controllers\RKSJePenDasController@destroy',
+        'index'     => 'Bantenprov\RKSJenPenDas\Http\Controllers\RKSJenPenDasController@index',
+        'create'     => 'Bantenprov\RKSJenPenDas\Http\Controllers\RKSJenPenDasController@create',
+        'store'     => 'Bantenprov\RKSJenPenDas\Http\Controllers\RKSJenPenDasController@store',
+        'show'      => 'Bantenprov\RKSJenPenDas\Http\Controllers\RKSJenPenDasController@show',
+        'update'    => 'Bantenprov\RKSJenPenDas\Http\Controllers\RKSJenPenDasController@update',
+        'destroy'   => 'Bantenprov\RKSJenPenDas\Http\Controllers\RKSJenPenDasController@destroy',
     ];
 
     Route::get('/',$controllers->index)->name('rks-jen-pen-das.index');

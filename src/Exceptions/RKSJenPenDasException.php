@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\RKSJePenDas\Exceptions;
+<?php namespace Bantenprov\RKSJenPenDas\Exceptions;
 
 use Exception;
 
 /**
- * The RKSJePenDasException class.
+ * The RKSJenPenDasException class.
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJePenDasException extends Exception
+class RKSJenPenDasException extends Exception
 {
     //
 }

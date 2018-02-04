@@ -1,25 +1,25 @@
-<?php namespace Bantenprov\RKSJePenDas\Http\Controllers;
+<?php namespace Bantenprov\RKSJenPenDas\Http\Controllers;
 
 /* require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\RKSJePenDas\Facades\RKSJePenDas;
+use Bantenprov\RKSJenPenDas\Facades\RKSJenPenDas;
 
 /* Models */
-use Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas\RKSJePenDas as PdrbModel;
-use Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas\Province;
-use Bantenprov\RKSJePenDas\Models\Bantenprov\RKSJePenDas\Regency;
+use Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\RKSJenPenDas as PdrbModel;
+use Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Province;
+use Bantenprov\RKSJenPenDas\Models\Bantenprov\RKSJenPenDas\Regency;
 
 /* etc */
 use Validator;
 
 /**
- * The RKSJePenDasController class.
+ * The RKSJenPenDasController class.
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJePenDasController extends Controller
+class RKSJenPenDasController extends Controller
 {
 
     protected $province;

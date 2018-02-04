@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\RKSJePenDas\Console\Commands;
+<?php namespace Bantenprov\RKSJenPenDas\Console\Commands;
 
 use Illuminate\Console\Command;
 
 /**
- * The RKSJePenDasCommand class.
+ * The RKSJenPenDasCommand class.
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RKSJePenDasCommand extends Command
+class RKSJenPenDasCommand extends Command
 {
 
     /**
@@ -23,7 +23,7 @@ class RKSJePenDasCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Demo command for Bantenprov\RKSJePenDas package';
+    protected $description = 'Demo command for Bantenprov\RKSJenPenDas package';
 
     /**
      * Create a new command instance.
@@ -42,6 +42,6 @@ class RKSJePenDasCommand extends Command
      */
     public function handle()
     {
-        $this->info('Welcome to command for Bantenprov\RKSJePenDas package');
+        $this->info('Welcome to command for Bantenprov\RKSJenPenDas package');
     }
 }

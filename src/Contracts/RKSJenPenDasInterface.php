@@ -1,12 +1,12 @@
-<?php namespace Bantenprov\RKSJePenDas\Contracts;
+<?php namespace Bantenprov\RKSJenPenDas\Contracts;
 
 /**
- * The RKSJePenDasInterface interface
+ * The RKSJenPenDasInterface interface
  *
- * @package Bantenprov\RKSJePenDas
+ * @package Bantenprov\RKSJenPenDas
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-interface RKSJePenDasInterface
+interface RKSJenPenDasInterface
 {
     //
 }
