@@ -1,8 +1,8 @@
-# rks-jen-pen-das
+# rks-jenjang-pendidikan-dasar
 
-[![Join the chat at https://gitter.im/rks-jen-pen-das/Lobby](https://badges.gitter.im/rks-jen-pen-das/Lobby.svg)](https://gitter.im/rks-jen-pen-das/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jen-pen-das/build-status/master)
+[![Join the chat at https://gitter.im/rks-jenjang-pendidikan-dasar/Lobby](https://badges.gitter.im/rks-jenjang-pendidikan-dasar/Lobby.svg)](https://gitter.im/rks-jenjang-pendidikan-dasar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rks-jenjang-pendidikan-dasar/build-status/master)
 
 Rasio Ketersediaan Sekolah (RKS) Jenjang Pendidikan Dasar
 
@@ -10,18 +10,18 @@ Rasio Ketersediaan Sekolah (RKS) Jenjang Pendidikan Dasar
 
 - Development snapshot
 ```bash
-$ composer require bantenprov/rks-jen-pen-das:dev-master
+$ composer require bantenprov/rks-jenjang-pendidikan-dasar:dev-master
 ```
 - Latest release:
 
 ```bash
-$ composer require bantenprov/rks-jen-pen-das:v0.1.0
+$ composer require bantenprov/rks-jenjang-pendidikan-dasar:v0.1.0
 ```
 
 ## download via github
 ~~~
 bash
-$ git clone https://github.com/bantenprov/rks-jen-pen-das.git
+$ git clone https://github.com/bantenprov/rks-jenjang-pendidikan-dasar.git
 ~~~
 
 
