@@ -25,7 +25,7 @@
         <div class="card h-100" style="color: #fff; background-color: #009688;">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Wilayah
+            Rasio Ketersediaan Sekolah Pendidikan Dasar Berdasarkan Wilayah
           </div>
           <div class="card-body">
             <rks-jen-pen-das-bar-01></rks-jen-pen-das-bar-01>
@@ -36,7 +36,7 @@
         <div class="card h-100" style="color: #fff; background-color: #FF9800;">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Wilayah
+            Rasio Ketersediaan Sekolah Pendidikan Dasar Berdasarkan Wilayah
           </div>
           <div class="card-body">
             <rks-jen-pen-das-pie-01></rks-jen-pen-das-pie-01>
@@ -52,7 +52,7 @@
         <div class="card h-100" style="color: #fff; background-color: #F44336;">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Kategori
+            Rasio Ketersediaan Sekolah Pendidikan Dasar Berdasarkan Kategori
           </div>
           <div class="card-body">
             <rks-jen-pen-das-pie-02></rks-jen-pen-das-pie-02>
@@ -63,7 +63,7 @@
         <div class="card text-white bg-dark h-100">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Kategori
+            Rasio Ketersediaan Sekolah Pendidikan Dasar Berdasarkan Kategori
           </div>
           <div class="card-body">
             <rks-jen-pen-das-bar-02></rks-jen-pen-das-bar-02>
