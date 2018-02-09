@@ -2,20 +2,22 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2012",
-      "index": "Banten-2012",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2013",
+      "index": "Pandeglang-2013",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
       ]
     },
     "series": [
       {
         "data": [
-          5.59,
-          5.09        
+          1301,
+          225907,
+          57.59
         ]
       }
     ]
@@ -23,20 +25,528 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2012",
-      "index": "Indonesia-2012",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2014",
+      "index": "Pandeglang-2014",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
       ]
     },
     "series": [
       {
         "data": [
-          119.85,
-          112.5
+          1326,
+          223834,
+          59.24
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
+      "yyyy": "2015",
+      "index": "Pandeglang-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1326,
+          223109,
+          59.43
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Lebak",
+      "yyyy": "2013",
+      "index": "Lebak-2013",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1324,
+          239406,
+          55.3
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Lebak",
+      "yyyy": "2014",
+      "index": "Lebak-2014",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1392,
+          238332,
+          58.41
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Lebak",
+      "yyyy": "2015",
+      "index": "Lebak-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1407,
+          238278,
+          59.05
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "yyyy": "2013",
+      "index": "Tangerang-2013",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1681,
+          511133,
+          32.89
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "yyyy": "2014",
+      "index": "Tangerang-2014",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          268,
+          522595,
+          33.51
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Tangerang",
+      "yyyy": "2015",
+      "index": "Tangerang-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1791,
+          536402,
+          33.39
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Serang",
+      "yyyy": "2013",
+      "index": "Serang-2013",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1164,
+          268199,
+          43.4
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Serang",
+      "yyyy": "2014",
+      "index": "Serang-2014",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1211,
+          267029,
+          45.35
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kabupaten",
+      "name": "Serang",
+      "yyyy": "2015",
+      "index": "Serang-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1211,
+          267023,
+          45.35
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang",
+      "yyyy": "2013",
+      "index": "Tangerang-2013",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          841,
+          262818,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang",
+      "yyyy": "2014",
+      "index": "Tangerang-2014",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          793,
+          266075,
+          29.8
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang",
+      "yyyy": "2015",
+      "index": "Tangerang-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          813,
+          270668,
+          30.04
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Cilegon",
+      "yyyy": "2013",
+      "index": "Cilegon-2013",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          257,
+          64079,
+          40.11
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Cilegon",
+      "yyyy": "2014",
+      "index": "Cilegon-2014",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          268,
+          64400,
+          41.61
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Cilegon",
+      "yyyy": "2015",
+      "index": "Cilegon-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          274,
+          65019,
+          42.14
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Serang",
+      "yyyy": "2013",
+      "index": "Serang-2013",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          357,
+          111519,
+          32.01
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Serang",
+      "yyyy": "2014",
+      "index": "Serang-2014",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          383,
+          112434,
+          34.06
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Serang",
+      "yyyy": "2015",
+      "index": "Serang-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          398,
+          113875,
+          34.95
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang Selatan",
+      "yyyy": "2013",
+      "index": "Tangerang Selatan-2013",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          357,
+          203152,
+          28.4
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang Selatan",
+      "yyyy": "2014",
+      "index": "Tangerang Selatan-2014",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          641,
+          207402,
+          30.91
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Kota",
+      "name": "Tangerang Selatan",
+      "yyyy": "2015",
+      "index": "Tangerang Selatan-2015",
+      "data": [
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          641,
+          212732,
+          30.13
         ]
       }
     ]
@@ -49,36 +559,17 @@
       "yyyy": "2013",
       "index": "Banten-2013",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
       ]
     },
     "series": [
       {
         "data": [
-          5.59,
-          5.09
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2013",
-      "index": "Indonesia-2013",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          120.17,
-          112.76
+          7502,
+          1886213,
+          39.77
         ]
       }
     ]
@@ -91,36 +582,17 @@
       "yyyy": "2014",
       "index": "Banten-2014",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
       ]
     },
     "series": [
       {
         "data": [
-          5.34,
-          4.86          
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2014",
-      "index": "Indonesia-2014",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          121.87,
-          114.63
+          7765,
+          1902101,
+          40.82
         ]
       }
     ]
@@ -133,78 +605,17 @@
       "yyyy": "2015",
       "index": "Banten-2015",
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "Jumlah Sekolah SD/MI+ SMP/MTs ",
+        "Jumlah Penduduk Usia 7-15 Tahun ",
+        "RKS SD/MI+ SMP/MTs"
       ]
     },
     "series": [
       {
         "data": [
-          5.34,
-          4.86          
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2015",
-      "index": "Indonesia-2015",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          121.87,
-          114.63
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2016",
-      "index": "Banten-2016",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5.59,
-          5.09
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2016",
-      "index": "Indonesia-2016",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          125.44,
-          118.41
+          7861,
+          1927106,
+          40.79
         ]
       }
     ]
